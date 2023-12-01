@@ -5,22 +5,13 @@
     android:orientation="vertical"
     android:padding="10dp">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:text="CREAR PRODUCTO"
-        android:textSize="24sp" />
-
     <EditText
         android:id="@+id/txtNombreProductViewModel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:ems="10"
-        android:hint="Nombre Porducto"
+        android:hint="Nombre Producto"
         android:inputType="text" />
 
     <LinearLayout
